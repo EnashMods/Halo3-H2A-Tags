@@ -5,4 +5,4 @@ Provided AS-IS for use with the halo 3 editing kit. Drop the h2a folder in your 
 If you want to run a map like Coagulation, you must go in to the scenarios folder and unzip the lightmap bitmap, probestore, and scenario_faux_data zips into the same folder.
 
 Credits:
-Duke%4216 - Coagulation scenery layout+skybox additions
+Duke#4216 - Coagulation scenery layout+skybox additions
