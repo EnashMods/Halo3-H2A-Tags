@@ -1,0 +1,145 @@
+; tags\levels\shader_collections.txt
+; <- this character indicates a comment, blank lines are okay too
+;
+; each shader collection is a named directory that the environment importing process
+; knows to look in for shaders - each line in this file has the format
+;
+; abbreviation	tag directory
+;
+; do not remove this first entry, it specifies the default place to look
+
+*		levels\shared\shaders
+
+; ignore this stuff - I'll clean it out later pc 051006
+
+; ========== general-purpose shaders (invisible collision geometry, etc)
+g		scenarios\shaders\generic
+n		scenarios\shaders\nature
+m		scenarios\shaders\multi
+shared		scenarios\shaders\shared\shaders
+ui		scenarios\shaders\ui
+mainmenu	scenarios\shaders\ui\mainmenu
+mm		levels\ui\mainmenu\shaders
+gen		levels\shared\shaders\generic
+simple		levels\shared\shaders\simple
+mpshare		levels\shared\shaders\multi
+shared		levels\shared\shaders
+
+test_box        levels\test\box
+
+;========== Solo Levels =============
+
+shr		levels\shared\shaders
+jun		levels\solo\010_jungle
+base		levels\solo\020_base
+city            levels\solo\03a_oldmombasa
+zanzibar        levels\solo\03a_oldmombasa
+temple		levels\solo\05a_deltaapproach
+voi		levels\solo\040_voi
+fvoi		levels\solo\050_floodvoi
+fz		levels\solo\06b_floodzone
+fs		levels\solo\110_hc\shaders
+out		levels\solo\030_outskirts
+hc		levels\solo\110_hc
+gf		levels\solo\080_forest
+waste		levels\solo\070_waste
+cit		levels\solo\100_citadel
+halo            levels\solo\120_halo
+shadow		levels\solo\055_shadow
+s3dtut      levels\solo\s3d_tutorial
+
+;========== Temp Levels =============
+
+temp		levels\temp\
+play		levels\temp\scarab_playground
+concrete        levels\temp\concrete
+destructo       levels\temp\destructo
+re              levels\temp\reservoir
+lt		levels\temp\lighting_test
+omega		levels\temp\barry\omega
+mptemp		levels\temp\mp_temp_shaders
+mpsky		levels\temp\mp_temp_sky
+
+;========== Multi Levels =============
+
+chill		levels\multi\chill
+sal		levels\multi\salvation
+shaft		levels\multi\shaft
+ph		levels\multi\pump_haus
+sb		levels\multi\snowbound
+iso		levels\multi\isolation
+shr		levels\multi\shrine
+con		levels\multi\construct
+dead		levels\multi\deadlock
+guardian	levels\multi\guardian
+river		levels\multi\riverworld
+zan		levels\multi\zanzibar
+cyber		levels\multi\cyberdyne
+s3dava      levels\multi\s3d_avalanche
+s3ddale     levels\multi\s3d_dale
+s3dedge     levels\multi\s3d_edge
+s3dhangar   levels\multi\s3d_hangar
+s3dreactor  levels\multi\s3d_reactor
+s3drock     levels\multi\s3d_rock
+s3dside     levels\multi\s3d_sidewinder
+s3dturf     levels\multi\s3d_turf
+s3dunder    levels\multi\s3d_underwater
+s3dwell     levels\multi\s3d_well
+s3dpwhs     levels\multi\s3d_powerhouse
+s3dwtf      levels\multi\s3d_waterfall
+s3dcntdw    levels\multi\s3d_countdown
+s3dskybr    levels\multi\s3d_sky_bridgenew
+s3dlock     levels\multi\s3d_lockout
+s3dhvn      levels\multi\s3d_haven
+s3ddrd      levels\multi\s3d_drydock
+s3dbms      levels\multi\s3d_burial_mounds
+s3dchill    levels\multi\s3d_chillout
+s3dbvr      levels\multi\s3d_beaver_creek 
+
+;========== Objects =============
+
+obj_sh		objects\levels\shared\
+phantom		objects\vehicles\phantom
+wraith		objects\vehicles\wraith
+cruis		objects\vehicles\cov_cruiser
+voi_obj		objects\levels\solo\040_voi
+pelican		objects\vehicles\pelican
+lod		objects\vehicles\lod
+civ		objects\vehicles\civilian
+humanmil	objects\gear\human\military
+humanind	objects\gear\human\industrial
+dlobj		objects\levels\multi\deadlock
+scarab		objects\giants\scarab
+salobj		objects\levels\multi\salvation
+frigate		objects\cinematics\human\frigate
+plas_turret	objects\weapons\turret\plasma_cannon
+char		objects\characters\
+
+;========== DLC Levels =============
+
+ware		levels\dlc\warehouse
+dock		levels\dlc\docks
+camp		levels\dlc\spacecamp
+side		levels\dlc\sidewinder
+beach		levels\dlc\beachhead
+descent		levels\dlc\descent
+lock		levels\dlc\lockout
+bunk		levels\dlc\bunkerworld
+vol		levels\dlc\volcano
+gash		levels\dlc\the_gash
+arm		levels\dlc\armory
+land		levels\dlc\landslide
+pump		levels\dlc\pump_haus
+shaft		levels\dlc\shaft
+wart		levels\dlc\warthog_inc
+ghost       levels\dlc\ghosttown
+chillout    levels\dlc\chillout
+midship     levels\dlc\midship
+fort        levels\dlc\fortress
+
+;========== H2AMP Levels =============
+coag h2a\levels\multi\coagulation
+bc h2a\levels\multi\beavercreek
+
+;========== H2ASP Levels =============
+ag h2a\levels\solo\alphagasgiant
